@@ -13,8 +13,10 @@ In this tutorial we will show you how to leverage AWS Elastic Beanstalk to deplo
 ## Donwloading and Running the NodeJS API Locally ##
 
 1.  The NodeJS/Express/SwaggerUI api code we will be deploying can be located in this [repo](https://github.com/feranto/NodeJSExpressSwaggerUIBackend). (All the details of how to recreate this API and file structure can be located in the repo README).
-![alt text][repo]
-[repo]: images/1.png  "Repo"
+![alt text][vscode]
+
+[vscode]: images/1.png  "Recursos en vscode"
+
 2.  We clone the repo locally ``` git clone https://github.com/feranto/NodeJSExpressSwaggerUIBackend.git ```
 3.  We access the repo folder ``` cd NodeJSExpressSwaggerUIBackend```
 3.  We run ``` npm install ``` to download the node modules
