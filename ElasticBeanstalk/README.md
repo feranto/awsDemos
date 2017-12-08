@@ -85,12 +85,25 @@ We should enter the access key and secret we got form AWS Management Console.
 
 6.  When eb creates end successfully, we can check the status and health of our app by using the following commands :
 
+![alt text][14]
+
+[14]: images/14.png  ""
+
 *   ``` eb list``` to get all of our elastic beanstalk environments
 *   ``` eb status <NAMEOFEB>``` 
 *   ``` eb health <NAMEOFEB>``` 
 
 7. Finally, if the health is green, we can run the command *   ``` eb open <NAMEOFEB>```  to see our app running in the browser
 
+![alt text][15]
+
+[15]: images/15.png  ""
+
+
+
+![alt text][16]
+
+[16]: images/16.png  ""
 
 8.  Some other commands:
     *   [eb deploy](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-getting-started.html)
