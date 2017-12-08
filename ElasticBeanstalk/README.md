@@ -64,6 +64,19 @@ We should enter the access key and secret we got form AWS Management Console.
 
 [8]: images/8.png  ""
 
+3.  It will detect the platform of our code by default:
+
+![alt text][9]
+
+[9]: images/9.png  ""
+
+4.  It will also enable the CodeCommit feature, creating an ssh pair of keys to upload the git changes safely to Elastic Beanstalk.
+
+![alt text][12]
+
+[12]: images/12.png  ""
+
+
 Setear credenciales de aws
     Dentro del repositorio git creamos un repositorio de elastic beanstalk
         eb init 
