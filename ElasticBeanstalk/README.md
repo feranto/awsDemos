@@ -7,9 +7,8 @@ In this tutorial we will show you how to leverage AWS Elastic Beanstalk to deplo
 *   Git [git](https://git-scm.com/download/win)
 *   A bash, could be Git Bash if on Windows
 *  [Visual Studio Code](https://code.visualstudio.com/download)
-*  [NodeJS](https://store.docker.com/editions/community/docker-ce-desktop-windows) para Windows.
-*  [Python](https://store.docker.com/editions/community/docker-ce-desktop-windows) para Windows.
-*  [AWS-cli](https://store.docker.com/editions/community/docker-ce-desktop-windows) para Windows.
+*  [NodeJS](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+*  [Python](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
 ## Comandos básicos de Docker ##
 
