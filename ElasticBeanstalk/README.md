@@ -32,11 +32,15 @@ In this tutorial we will show you how to leverage AWS Elastic Beanstalk to deplo
 
 [npminstall]: images/4.png  ""
 4.  We run ``` node server.js ``` to start the API in a local server
-5.  Now we can access the api locally by opening the [localhost url](http://localhost:8000) ``` http://localhost:8000 ```
+5.  Now we can access the api locally by opening the [localhost url](http://localhost:8000/docs) ``` http://localhost:8000/docs ```
 
-![alt text][4]
+![alt text][5]
 
-[4]: images/4.png  ""
+[5]: images/5.png  ""
+
+![alt text][6]
+
+[6]: images/6.png  ""
 6.  Good, now that we have our API running locally, now we prepare to deploy it to AWS Elastic Beanstalk.
 
 ## Installing and configuring AWS-cli ##
