@@ -93,7 +93,7 @@ We should enter the access key and secret we got form AWS Management Console.
 *   ``` eb status <NAMEOFEB>``` 
 *   ``` eb health <NAMEOFEB>``` 
 
-7. Finally, if the health is green, we can run the command *   ``` eb open <NAMEOFEB>```  to see our app running in the browser
+7. Finally, if the health is green, we can run the command   ``` eb open <NAMEOFEB>```  to see our app running in the browser
 
 ![alt text][15]
 
