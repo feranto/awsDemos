@@ -5,14 +5,14 @@ In this tutorial we will show you how to leverage AWS Elastic Beanstalk to deplo
 ## Basic requirements ##
 
 *   Git [git](https://git-scm.com/download/win)
-*   A bash, could be Git Bash if on Windows
+*   A bash terminal (could be Git Bash if on Windows)
 *  [Visual Studio Code](https://code.visualstudio.com/download)
-*  [NodeJS](https://store.docker.com/editions/community/docker-ce-desktop-windows)
-*  [Python](https://store.docker.com/editions/community/docker-ce-desktop-windows)
+*  [NodeJS](https://nodejs.org/en/download/)
+*  [Python](https://www.python.org/downloads/)
 
 ## Donwloading and Running the NodeJS API Locally ##
 
-1.  The NodeJS/Express/SwaggerUI api code we will be deploying can be located in this repo. (All the details of how to recreate this API and file structure can be located in the repo README)
+1.  The NodeJS/Express/SwaggerUI api code we will be deploying can be located in this [repo](https://github.com/feranto/NodeJSExpressSwaggerUIBackend). (All the details of how to recreate this API and file structure can be located in the repo README)
 2.  We clone the repo locally ``` git clone https://github.com/feranto/NodeJSExpressSwaggerUIBackend.git ```
 3.  We access the repo folder ``` cd NodeJSExpressSwaggerUIBackend```
 3.  We run ``` npm install ``` to download the node modules
