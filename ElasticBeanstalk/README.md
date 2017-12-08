@@ -13,13 +13,23 @@ In this tutorial we will show you how to leverage AWS Elastic Beanstalk to deplo
 ## Donwloading and Running the NodeJS API Locally##
 
 1.  The NodeJS/Express/SwaggerUI api code we will be deploying can be located in this repo. (All the details of how to recreate this API and file structure can be located in the repo README)
-2.  We clone the repo locally
+2.  We clone the repo locally ``` git clone https://github.com/feranto/NodeJSExpressSwaggerUIBackend.git ```
+3.  We access the repo folder ``` cd NodeJSExpressSwaggerUIBackend```
 3.  We run ``` npm install ``` to download the node modules
 4.  We run ``` node server.js ``` to start the API in a local server
 5.  Now we can access the api locally by opening the localhost url ``` http://localhost:8000 ```
 6.  Good, now that we have our API running locally, now we prepare to deploy it to AWS Elastic Beanstalk.
 
-## Donwloading and Running the NodeJS API Locally##
+## Installing and configuring AWS-cli##
+1.  First we have to install AWS-Cli with the following steps http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html
+2.  After installing successfully AWS-Cli we must configure an access-key to be able to manager our AWS resources via AWS Cli. You can use the following steps:
+http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey
+
+## ##
+Configuramos EB-cli http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-configuration.html
+    
+
+
 ``` docker info ``` - Nos la información de nuestro entorno
 
 ``` docker pull ``` - Trae una imagen del registro
