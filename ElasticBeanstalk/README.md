@@ -79,13 +79,22 @@ We should enter the access key and secret we got form AWS Management Console.
 
 5.  Now we execute the command ``` eb create``` , it will ask for a name of the elastic beanstalk environment, a dns name to access it publicly, a [type of load balancer](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html), it will create a [service role](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html) and finally it will upload our code and run it. 
 
+![alt text][13]
 
-        eb list
-        eb status
-        eb health
-        eb events
-        eb deploy http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-getting-started.html
-            we modify, comit, push and then eb deploy
-        eb parameters http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb3-create.html
-        eb terminate
-            http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html?carousel=true
+[13]: images/13.png  ""
+
+6.  When eb creates end successfully, we can check the status and health of our app by using the following commands :
+
+*   ``` eb list``` to get all of our elastic beanstalk environments
+*   ``` eb status <NAMEOFEB>``` 
+*   ``` eb health <NAMEOFEB>``` 
+
+7. Finally, if the health is green, we can run the command *   ``` eb open <NAMEOFEB>```  to see our app running in the browser
+
+
+8.  Some other commands:
+    *   [eb deploy](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-getting-started.html)
+    *  When we modify, comit, push and then we use eb deploy to update
+    *  [eb parameters] (http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb3-create.html)
+    *   [eb terminate]
+            (http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html?carousel=true)
