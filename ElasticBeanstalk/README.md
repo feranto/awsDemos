@@ -77,22 +77,9 @@ We should enter the access key and secret we got form AWS Management Console.
 [12]: images/12.png  ""
 
 
-Setear credenciales de aws
-    Dentro del repositorio git creamos un repositorio de elastic beanstalk
-        eb init 
-            we choose region
-            we enter security keys
-            we create project
-                it detects the code platform
-                aws codecommit feature
-                    setup ssh
-                    Creates ssh and uploads ssh public key to aws
-        eb create   
-            define environment we are going to use 
-            define cname we are going to use 
-            we define load balancer we are going to use http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html
-            It creates a service Role  http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html
-            Starts tu upload our files
+5.  Now we execute the command ``` eb create``` , it will ask for a name of the elastic beanstalk environment, a dns name to access it publicly, a [type of load balancer](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.elb.html), it will create a [service role](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html) and finally it will upload our code and run it. 
+
+
         eb list
         eb status
         eb health
